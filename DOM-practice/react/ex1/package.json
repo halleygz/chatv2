@@ -1,0 +1,20 @@
+{
+  "name": "ex1",
+  "description": "https://v2.scrimba.com/learn-react-c0e/~0f",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
