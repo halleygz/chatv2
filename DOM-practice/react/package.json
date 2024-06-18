@@ -1,7 +1,6 @@
 {
   "name": "ex1",
   "description": "https://v2.scrimba.com/learn-react-c0e/~0f",
-  
   "scripts": {
     "watch": "webpack -w",
     "build": "webpack"

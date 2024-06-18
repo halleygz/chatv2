@@ -15,20 +15,19 @@ Hints:
   just like in HTML. In the slide, I have it set to 40px
  */
 
-const test = (
-  <div>
-    <img src="./react-logo.png" width={'40px'} />
-    <h1>Fun facts about React</h1>
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was originally created by Jordan Walke</li>
-      <li>Has well over 100K stars on GitHub</li>
-      <li>Is maintained by Meta</li>
-      <li>Powers thousands of enterprise apps, including mobile apps</li>
-      <li>Finally webpack is working</li>
-    </ul>
-  </div>
-)
+  function TempoName(){
+    return (
+        <div>
+            <ol>
+                <li>Reusable</li>
+                <li>Reusable</li>
+                <li>Reusable</li>
+                <li>Reusable</li>
+            </ol>
+                    
+        </div>
+    )
+}
 
 const root = createRoot(document.getElementById('root'))
-root.render(test)
+root.render(<TempoName />)
