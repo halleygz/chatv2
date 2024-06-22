@@ -1,28 +1,32 @@
-import React from "react"
-import Contacts from './Contacts'
+import React from "react";
+import Contacts from "./Contacts";
 
 const data = [
-    {
+  {
     cName: "Mr. Whiskerson",
     phone: "(212) 555-1234",
-    email: "mr.whiskaz@catnap.meow"
-},
-    {
+    email: "mr.whiskaz@catnap.meow",
+    img: "./images/mr-whiskerson.png",
+  },
+  {
     cName: "Fluffykins",
     phone: "(212) 555-2345",
-    email: "fluff@me.com"
-},
-    {
+    email: "fluff@me.com",
+    img: "./images/fluffykins.png",
+  },
+  {
     cName: "Felix",
     phone: "(212) 555-4567",
-    email: "thecat@hotmail.com"
-},
-    {
+    email: "thecat@hotmail.com",
+    img: "./images/felix.png",
+  },
+  {
     cName: "Pumpkin",
     phone: "(0800)",
-    email: "pumpkin@scrimba.com"
-},
-]
+    email: "pumpkin@scrimba.com",
+    img: "./images/pumpkin.png",
+  },
+];
 /* Challenge:
 
 - Create a Contact.js component in another file
@@ -32,9 +36,18 @@ const data = [
 */
 
 function App() {
-    return (
-        <Contacts/>
-    )
+  const catList = data.map((cat) => (
+      <Contacts
+        key={cat.cName}
+        cName={cat.cName}
+        img={cat.img}
+        phone={cat.phone}
+        email={cat.email}
+      />
+  ));
+  return (<div className="contacts">
+    {catList}
+    </div>)
 }
 
-export default App
+export default App;

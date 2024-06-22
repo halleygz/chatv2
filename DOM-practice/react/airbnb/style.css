@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    font-family: 'Inter', sans-serif;
+    font-family: sans-serif;
     background-color: whitesmoke;
 }
 
