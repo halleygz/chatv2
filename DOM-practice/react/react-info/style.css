@@ -3,7 +3,8 @@
 }
 
 body {
-    margin: 0;
+    margin: auto;
+    max-width: 450px;
     font-family: Inter, sans-serif;
     height: 100vh;
     background-color: #282D35;
