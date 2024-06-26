@@ -3,10 +3,15 @@
 }
 
 body {
+    max-width: 450px;
     font-family: "Karla", sans-serif;
-    margin: 0;
+    margin: auto;
 }
-
+#root{
+    -webkit-box-shadow: 6px 6px 61px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 6px 6px 61px -4px rgba(0,0,0,0.42);
+    box-shadow: 6px 6px 61px -4px rgba(0,0,0,0.42);
+}
 main {
     padding: 36px;
 }
