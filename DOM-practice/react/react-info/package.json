@@ -1,6 +1,6 @@
 {
-  "name": "react-info",
-  "description": "https://v2.scrimba.com/learn-react-c0e/~0f",
+  "name": "notes-app",
+  "description": "notes app build by react",
   
   "scripts": {
     "watch": "webpack -w",

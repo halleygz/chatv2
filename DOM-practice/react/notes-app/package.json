@@ -1,17 +1,17 @@
 {
-  "name": "ex1",
+  "name": "react-info",
   "description": "https://v2.scrimba.com/learn-react-c0e/~0f",
   "scripts": {
     "watch": "webpack -w",
     "build": "webpack"
   },
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-mde": "11.5.0",
-    "showdown": "2.1.0",
-    "react-split": "2.0.14",
-    "nanoid": "5.0.7"
+    "showdown": "1.9.1",
+    "react-split": "2.0.13",
+    "nanoid": "3.1.28"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.7",
