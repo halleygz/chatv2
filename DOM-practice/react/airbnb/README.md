@@ -1,1 +1,1 @@
-### [deployed site link](https://airbnbexph.netlify.app/)
+### [deployed site link](https://halleygz.github.io/chatv2/DOM-practice/react/airbnb/)
