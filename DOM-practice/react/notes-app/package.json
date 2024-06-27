@@ -1,27 +1,23 @@
 {
-  "name": "react-info",
-  "description": "https://v2.scrimba.com/learn-react-c0e/~0f",
+  "name": "My_notes_app",
+  "description": "notes app",
   "scripts": {
-    "watch": "webpack -w",
-    "build": "webpack"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "firebase": "^10.12.2",
-    "nanoid": "3.1.28",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "nanoid": "3.1.28",
     "react-mde": "11.5.0",
     "react-split": "2.0.13",
-    "showdown": "1.9.1"
+    "showdown": "1.9.1",
+    "firebase": "10.12.2",
+    "vite": "latest"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.24.7",
-    "@babel/preset-react": "^7.24.7",
-    "babel-core": "^6.0",
-    "babel-loader": "^9.0",
-    "babel-preset-env": "*",
-    "babel-preset-react": "*",
-    "webpack": "^5.92.0",
-    "webpack-cli": "^5.1.4"
+    "@vitejs/plugin-react": "*"
   }
 }
