@@ -6,12 +6,13 @@
     "build": "webpack"
   },
   "dependencies": {
+    "firebase": "^10.12.2",
+    "nanoid": "3.1.28",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-mde": "11.5.0",
-    "showdown": "1.9.1",
     "react-split": "2.0.13",
-    "nanoid": "3.1.28"
+    "showdown": "1.9.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.7",
