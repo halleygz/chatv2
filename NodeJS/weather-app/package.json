@@ -1,5 +1,6 @@
 {
   "name": "weather-app",
+  "type": "module",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -8,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "postman-request": "^2.88.1-postman.35"
+  }
 }
